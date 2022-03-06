@@ -1,0 +1,62 @@
+body {
+  background-color: #28546C;
+  text-align: center;
+  }
+
+#form-outer {
+  background-color: #6F90A2;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+#description {
+  Font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea,
+fieldset {
+  width : 33%;
+  border: 1px solid #333;
+  margin: 0;
+  
+  font-family: inherit;
+  font-size: 90%;
+  box-sizing: border-box;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+label {
+  height: 35px;
+  width: 120px;
+  padding: 5px;
+  margin: 5px;  
+  margin-top: 15px;
+}
