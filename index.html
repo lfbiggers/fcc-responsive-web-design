@@ -1,0 +1,73 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  
+  <body>
+    
+  <h1 id="title">Help Us Build a Better Site!</h1>
+  <div id="form-outer">
+  <p id="description">Want to help us bring you better content? Then, just answer a few quick questions.</p>
+    <br>
+    
+  <form id="survey-form">
+    <label id="name-label">Name:</label>
+    <input id="name" type="text" placeholder="Name" required>
+    <br>
+    <label id="email-label">E-mail:</label>
+    <input id="email" type="email" placeholder="E-mail" required>
+    <br>
+    <label id="number-label">Age:</label>
+    <input id="number" type="number" min="13" max="120" placeholder="Age" required>
+    <br>
+    <label id="job-label">Current Job:</label>
+    <select id="dropdown" name="currentJob" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option  value="student">Student</option>
+      <option value="homemaker">Homemaker</option>
+      <option value="job">Full Time Job</option>
+      <option value="learner">Full Time Learner</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    <label class="q">What is your current coding ability?</label>
+    <br>
+    <label for="none">
+    <input id="none" type="radio" value="1" name="codingLvl">No Experience
+    </label>
+    <label for="beginner">
+    <input id="beginner" type="radio" value="2" name="codingLvl">Beginner
+    </label>
+    <label for="intermediate">
+    <input id="intermediate" type="radio" value="3" name="codingLvl">Intermediate
+    </label>
+    <label for="advanced">
+    <input id="advanced" type="radio" value="4" name="codingLvl">Advanced
+    </label>
+    <label for="notsure">
+    <input id="notsure" type="radio" value="5" name="codingLvl">Not Sure
+    </label>
+    <br>
+    <label class="q">Which of these popular programming languages are you most interested in learning? (Check all that apply.)</label>
+    <br>
+    <label for="htmlcss"><input type="checkbox" value="1" id="htmlcss" name="languages">HTML/CSS</label>
+    <label for="javascript"><input type="checkbox" value="2" id="javascript" name="languages">Javascript</label>
+    <label for="python"><input type="checkbox" value="3" id="python" name="languages">Python</label>
+    <label for="ccplus"><input type="checkbox" value="4" id="ccplus" name="languages">C/C++</label>
+    <label for="java"><input type="checkbox" value="5" id="java" name="languages">Java</label>
+    <label for="php"><input type="checkbox" value="6" id="php" name="languages">PHP</label>
+    <label for="ruby"><input type="checkbox" value="7" id="ruby" name="languages">Ruby</label>
+    <label for="csharp"><input type="checkbox" value="8" id="csharp" name="languages">C#</label>
+    <label for="swift"><input type="checkbox" value="9" id="swift" name="languages">Swift</label>
+    <label for="rust"><input type="checkbox" value="10" id="rust" name="languages">Rust</label>
+    <br>
+    <label class="q">Anything else we can do to help you learn better?</label>
+    <br>
+    <textarea rows="5" cols="25" id="learning" placeholder="Well, now that you mention it..."></textarea>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+
+  </form>
+ </div>
+</body>
+    
+</html>
